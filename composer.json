@@ -27,16 +27,5 @@
         }
 
     },
-
-	"extra": {
-        "laravel":{
-            "providers":[
-                "Nikapps\BazaarApiLaravel\BazaarApiLaravelServiceProvider"
-            ],
-            "aliases":{
-                "BazaarApi" : "Nikapps\\BazaarApiLaravel\\BazaarApiFacade"
-            }
-		}
-	},
     "minimum-stability": "dev"
 }
