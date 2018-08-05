@@ -1,0 +1,31 @@
+{
+    "name": "mohammad-mazraeshahi/cafebazaar-api-laravel",
+    "description": "An API wrapper for cafebazaar based on popular Laravel Framework",
+    "keywords": ["CafeBazaar", "API", "Laravel", "Wrapper", "Cafebazaar Api", "In App Purchase", "iap"],
+    "license": "MIT",
+    "type": "project",
+    "authors": [
+        {
+		  "name": "Mohammad Mazraeshahi",
+		  "email": "m.mazraeshahi@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.5.*",
+        "nikapps/bazaar-api-php": "2.*"
+    },
+    "autoload": {
+
+        "classmap": [
+            "src/Console",
+            "src/TokenManager"
+        ],
+
+        "psr-0": {
+            "Nikapps\\BazaarApiLaravel\\": "src/"
+        }
+
+    },
+    "minimum-stability": "stable"
+}
