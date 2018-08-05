@@ -16,7 +16,6 @@
         "nikapps/bazaar-api-php": "2.*"
     },
     "autoload": {
-
         "classmap": [
             "src/Console",
             "src/TokenManager"
@@ -27,5 +26,15 @@
         }
 
     },
+	"extra": {
+		"laravel":{
+			"providers":[
+				"Nikapps\\BazaarApiLaravel\\BazaarApiLaravelServiceProvider"
+			],
+			"aliases":{
+				"BazaarApi" : "Nikapps\\BazaarApiLaravel\\BazaarApiFacade"
+			}
+		}
+	},
     "minimum-stability": "dev"
 }
